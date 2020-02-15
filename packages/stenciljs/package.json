@@ -1,11 +1,12 @@
 {
   "name": "@iamdavidjackson/stenciljs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate consistent text output with templates",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib --presets=@babel/preset-env",
     "lint": "eslint --config=../../.eslintrc src test",
+    "publish": "npm publish --access=public",
     "test": "mocha --require @babel/register"
   },
   "repository": {
@@ -13,6 +14,11 @@
     "url": "git+https://github.com/iamdavidjackson/stenciljs.git"
   },
   "author": "David Jackson <davidjackson123@gmail.com>",
+  "keywords": [
+    "template",
+    "generator",
+    "handlebars"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/iamdavidjackson/stenciljs/issues"
