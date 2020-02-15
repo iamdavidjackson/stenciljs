@@ -1,0 +1,33 @@
+{
+  "name": "stenciljs",
+  "version": "1.0.0",
+  "description": "Generate consistent text based outputs using templates",
+  "main": "index.js",
+  "dependencies": {
+    "lerna": "^3.20.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/register": "^7.8.3",
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "mocha": "^7.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamdavidjackson/stenciljs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamdavidjackson/stenciljs/issues"
+  },
+  "homepage": "https://github.com/iamdavidjackson/stenciljs#readme"
+}
