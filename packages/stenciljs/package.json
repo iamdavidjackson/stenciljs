@@ -1,5 +1,5 @@
 {
-  "name": "stenciljs",
+  "name": "@iamdavidjackson/stenciljs",
   "version": "1.0.0",
   "description": "Generate consistent text output with templates",
   "main": "lib/index.js",
