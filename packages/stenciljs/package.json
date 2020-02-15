@@ -1,6 +1,6 @@
 {
   "name": "@iamdavidjackson/stenciljs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate consistent text output with templates",
   "main": "lib/index.js",
   "scripts": {
@@ -18,6 +18,9 @@
     "url": "https://github.com/iamdavidjackson/stenciljs/issues"
   },
   "homepage": "https://github.com/iamdavidjackson/stenciljs#readme",
+  "files": [
+    "/lib"
+  ],
   "dependencies": {
     "handlebars": "^4.7.3"
   },
